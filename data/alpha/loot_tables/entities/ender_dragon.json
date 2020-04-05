@@ -1,0 +1,50 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:looting_enchant",
+							"count": {
+								"min": 0.0,
+								"max": 0.5
+							},
+							"limit": 2
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"text": "Dragon's Wings",
+								"italic": false,
+								"color": "dark_purple"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "killer",
+							"lore": [
+								[
+									{
+										"text": "Slain by ",
+										"italic": false,
+										"color": "gray"
+									},
+									{
+										"selector": "@s",
+										"italic": false,
+										"color": "gray"
+									}
+								]
+							]
+						}
+					],
+					"name": "minecraft:elytra"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:quartz"
+		},
+		"title": {
+			"text": "Alpha Minecraft",
+			"bold": false,
+			"italic": false,
+			"color": "white"
+		},
+		"description": {
+			"text": "All the tweaks from Alpha made to the vanilla Minecraft experience",
+			"bold": false,
+			"italic": false,
+			"color": "gold"
+		},
+		"background": "minecraft:textures/block/bedrock.png",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"frame": "challenge"
+	},
+	"criteria": {
+		"init": {
+			"trigger": "minecraft:tick"
+		}
+	},
+	"rewards": {
+		"recipes": ["alpha:crafting_shaped/bell"]
+	}
+}

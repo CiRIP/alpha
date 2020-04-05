@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"#/#",
+		" B ",
+		"INI"
+	],
+	"key": {
+		"/": {
+			"item": "minecraft:stick"
+		},
+		"#": {
+			"tag": "minecraft:stone"
+		},
+		"B": {
+			"item": "minecraft:gold_block"
+		},
+		"I": {
+			"item": "minecraft:gold_ingot"
+		},
+		"N": {
+			"item": "minecraft:gold_nugget"
+		}
+	},
+	"result": {
+		"item": "minecraft:bell"
+	}
+}

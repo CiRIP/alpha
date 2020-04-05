@@ -1,0 +1,25 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:stone_slab"
+		},
+		"title": {
+			"text": "Slab Fusion"
+		},
+		"description": {
+			"text": "Combine 2 slabs of most materials to recombine them\n\n§7§oWill not work with materials that have existing recipes when combining slabs!"
+		},
+		"show_toast": false,
+		"announce_to_chat": false,
+		"frame": "goal"
+	},
+	"parent": "alpha:advancements/root",
+	"criteria": {
+		"combine_slab": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "alpha:crafting_shaped/slab/cobblestone"
+			}
+		}
+	}
+}

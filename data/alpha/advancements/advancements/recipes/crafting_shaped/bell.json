@@ -1,0 +1,25 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:bell"
+		},
+		"title": {
+			"text": "Ding Dong!"
+		},
+		"description": {
+			"text": "Make your very own bell, just like the one found in villages"
+		},
+		"show_toast": false,
+		"announce_to_chat": false,
+		"frame": "goal"
+	},
+	"parent": "alpha:advancements/root",
+	"criteria": {
+		"combine_slab": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "alpha:crafting_shaped/bell"
+			}
+		}
+	}
+}

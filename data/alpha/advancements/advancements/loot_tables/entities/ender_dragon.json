@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:elytra"
+		},
+		"title": {
+			"text": "Dragon's Wings"
+		},
+		"description": {
+			"text": "Kill an Ender Dragon to gain its flying powers\n\n§7§oA sword enchanted with Looting II or higher might make the Dragon drop an extra pair of wings!"
+		},
+		"show_toast": false,
+		"announce_to_chat": false,
+		"frame": "goal"
+	},
+	"parent": "alpha:advancements/root",
+	"criteria": {
+		"kill_dragon": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:ender_dragon"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:black_dye"
+		},
+		"title": {
+			"text": "Bone Blaster"
+		},
+		"description": {
+			"text": "Carbonize a Bone in a Blast Furnace to turn things black"
+		},
+		"show_toast": false,
+		"announce_to_chat": false,
+		"frame": "goal"
+	},
+	"parent": "alpha:advancements/root",
+	"criteria": {
+		"blast_bone": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "alpha:blast_furnace/black_dye"
+			}
+		}
+	}
+}

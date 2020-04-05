@@ -1,0 +1,25 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:leather"
+		},
+		"title": {
+			"text": "Zombie Smoker"
+		},
+		"description": {
+			"text": "Turn useless Rotten Flesh into Leather with a Smoker\n\n§7§oThis is a slow process and will require extra fuel!"
+		},
+		"show_toast": false,
+		"announce_to_chat": false,
+		"frame": "goal"
+	},
+	"parent": "alpha:advancements/root",
+	"criteria": {
+		"smoke_rotten_flesh": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "alpha:smoker/leather"
+			}
+		}
+	}
+}

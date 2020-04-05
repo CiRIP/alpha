@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:shulker_shell"
+		},
+		"title": {
+			"text": "Shulker Separator"
+		},
+		"description": {
+			"text": "Cleanly separate both Shulker Shells from the Shulker body"
+		},
+		"show_toast": false,
+		"announce_to_chat": false,
+		"frame": "goal"
+	},
+	"parent": "alpha:advancements/root",
+	"criteria": {
+		"kill_shulker": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:shulker"
+				}
+			}
+		}
+	}
+}
